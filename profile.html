@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3bd3133027.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Profile</title>
+    <style>
+      .container {
+        li:nth-of-type(3) .sidebar__list {
+          background-color: var(--lightgrey-color);
+          border-radius: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h3 class="sidebar__heading">Elgrgawy</h3>
+        <ul>
+          <li>
+            <a href="index.html" class="sidebar__list">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html" class="sidebar__list">
+              <i class="fa-solid fa-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="sidebar__list">
+              <i class="fa-regular fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="sidebar__list">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html" class="sidebar__list">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html" class="sidebar__list">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html" class="sidebar__list">
+              <i class="fa-regular fa-file"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" class="sidebar__list">
+              <i class="fa-regular fa-credit-card"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <header class="main-header">
+          <div class="left-header">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="right-header">
+            <i class="fa-regular fa-bell bell"></i>
+            <img loading="lazy" src="imgs/avatar.png" alt="avatar image" />
+          </div>
+        </header>
+        <div class="main-content profile">
+          <h1 class="main__header">Profile</h1>
+          <div class="card ahmed">
+            <div class="left">
+              <img loading="lazy" src="imgs/avatar.png" alt="image of avatar" />
+              <h3>Ahmed Elgrgawy</h3>
+              <span class="level">Level 20</span>
+              <div class="line"></div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="rating">550 Rating</span>
+            </div>
+            <div class="right">
+              <div class="ahmed__card">
+                <span class="title">Genral Information</span>
+                <div class="ahmed__info">
+                  <span class="info__gray"
+                    >Full Name <span class="info__black">Ahmed Ali</span></span
+                  >
+                  <span class="info__gray"
+                    >Gender <span class="info__black">Male</span></span
+                  >
+                  <span class="info__gray"
+                    >Country <span class="info__black">Egypt</span></span
+                  >
+                </div>
+                <input
+                  class="switch-input profile-switch"
+                  type="checkbox"
+                  name="switch1"
+                  id="profile-switch1"
+                  checked
+                />
+                <label class="switch" for="profile-switch1"></label>
+              </div>
+              <div class="ahmed__card">
+                <span class="title">Personal Information</span>
+                <div class="ahmed__info">
+                  <span class="info__gray"
+                    >Email:
+                    <span class="info__black">a@palestine.AE</span></span
+                  >
+                  <span class="info__gray"
+                    >Phone: <span class="info__black">01069116731</span></span
+                  >
+                  <span class="info__gray"
+                    >Date Of Birth:
+                    <span class="info__black">18/5/2003</span></span
+                  >
+                </div>
+                <input
+                  class="switch-input profile-switch"
+                  type="checkbox"
+                  name="switch1"
+                  id="profile-switch2"
+                  checked
+                />
+                <label class="switch" for="profile-switch2"></label>
+              </div>
+              <div class="ahmed__card">
+                <span class="title">Jop Information</span>
+                <div class="ahmed__info">
+                  <span class="info__gray"
+                    >Title:
+                    <span class="info__black">Front End Developer</span></span
+                  >
+                  <span class="info__gray"
+                    >Programming Language:
+                    <span class="info__black">JS</span></span
+                  >
+                  <span class="info__gray"
+                    >Years Of Experience:
+                    <span class="info__black">15+</span></span
+                  >
+                </div>
+                <input
+                  class="switch-input profile-switch"
+                  type="checkbox"
+                  name="switch1"
+                  id="profile-switch3"
+                />
+                <label class="switch" for="profile-switch3"></label>
+              </div>
+              <div class="ahmed__card">
+                <span class="title">Billing Information</span>
+                <div class="ahmed__info">
+                  <span class="info__gray"
+                    >Payment Method:
+                    <span class="info__black">Paypal</span></span
+                  >
+                  <span class="info__gray"
+                    >Email:
+                    <span class="info__black">elgrgaway@gmail.com</span></span
+                  >
+                  <span class="info__gray"
+                    >Subscription:
+                    <span class="info__black"> Monthly</span></span
+                  >
+                </div>
+                <input
+                  class="switch-input profile-switch"
+                  type="checkbox"
+                  name="switch1"
+                  id="profile-switch4"
+                />
+                <label class="switch" for="profile-switch4"></label>
+              </div>
+            </div>
+          </div>
+          <div class="card skills">
+            <div class="card__top">
+              <div class="left">
+                <h3 class="heading">My Skills</h3>
+                <p>Complete Skills List</p>
+              </div>
+            </div>
+            <div class="skills__rows">
+              <div class="skill__row">
+                <span>HTML</span>
+                <span>Pugjs</span>
+                <span>HAML</span>
+              </div>
+              <div class="skill__row">
+                <span>CSS</span>
+                <span>SASS</span>
+                <span>Stylus</span>
+              </div>
+              <div class="skill__row">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill__row">
+                <span>Vuejs</span>
+                <span>Reactjs</span>
+              </div>
+              <div class="skill__row">
+                <span>Jest</span>
+                <span>Jasmine</span>
+              </div>
+              <div class="skill__row">
+                <span>PHP</span>
+                <span>Laravel</span>
+              </div>
+              <div class="skill__row">
+                <span>Python</span>
+                <span>Django</span>
+              </div>
+            </div>
+          </div>
+          <div class="card activities">
+            <div class="card__top">
+              <div class="left">
+                <h3 class="heading">Latest Activities</h3>
+                <p>Latest Activities Done By The User</p>
+              </div>
+            </div>
+            <div class="activities__rows">
+              <div class="activities__row">
+                <div class="left">
+                  <img
+                    loading="lazy"
+                    src="imgs/activity-01.png"
+                    alt="image of activities"
+                  />
+                  <div class="left__text">
+                    <div>Store</div>
+                    <div class="grey">Bought The Mastering Python Course</div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>18:10</div>
+                  <div class="grey">Yesterday</div>
+                </div>
+              </div>
+              <div class="activities__row">
+                <div class="left">
+                  <img
+                    loading="lazy"
+                    src="imgs/activity-02.png"
+                    alt="image of activities"
+                  />
+                  <div class="left__text">
+                    <div>Academy</div>
+                    <div class="grey">Got The PHP Certificate</div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>16:05</div>
+                  <div class="grey">Yesterday</div>
+                </div>
+              </div>
+              <div class="activities__row">
+                <div class="left">
+                  <img
+                    loading="lazy"
+                    src="imgs/activity-03.png"
+                    alt="image of activities"
+                  />
+                  <div class="left__text">
+                    <div>Badges</div>
+                    <div class="grey">Unlocked The 10 Skills Badge</div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>18:05</div>
+                  <div class="grey">Yesterday</div>
+                </div>
+              </div>
+              <div class="activities__row">
+                <div class="left">
+                  <img
+                    loading="lazy"
+                    src="imgs/activity-01.png"
+                    alt="image of activities"
+                  />
+                  <div class="left__text">
+                    <div>Store</div>
+                    <div class="grey">Bought The Typescript Course</div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>12:05</div>
+                  <div class="grey">Yesterday</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

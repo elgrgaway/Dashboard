@@ -1,0 +1,106 @@
+.container {
+  .projects-page {
+    .card {
+      position: relative;
+      .top-right {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        font-size: 1.4rem;
+        color: var(--grey-color);
+      }
+      .card__top {
+        .left {
+          p {
+            font-size: 1.4rem;
+          }
+        }
+      }
+      .project__card {
+        padding: 2rem;
+      }
+      .project__images {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        img:first-of-type {
+          margin: 0;
+        }
+        img {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          margin-left: -1.2rem;
+          border: 0.2rem solid var(--background-color);
+          cursor: pointer;
+        }
+        img:hover {
+          z-index: 1;
+        }
+      }
+      .project__skills {
+        text-align: end;
+        padding: 1.5rem 0;
+        margin: 1.5rem 0;
+        border-top: 0.1rem solid #eee;
+        border-bottom: 0.1rem solid #eee;
+        span {
+          padding: 0.4rem 1rem;
+          background-color: #eee;
+          border-radius: 0.5rem;
+          font-size: 1.4rem;
+        }
+      }
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .project__line {
+          height: 0.8rem;
+          width: 26rem;
+          background-color: #eee;
+          border-radius: 0.5rem;
+          position: relative;
+        }
+        .project__line::after {
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 50%;
+          background-color: var(--green-color);
+          border-radius: 0.5rem;
+        }
+
+        span {
+          color: var(--grey-color);
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .card:nth-of-type(1) .project__line::after,
+    .card:nth-of-type(6) .project__line::after {
+      background-color: var(--red-color);
+    }
+    .card:nth-of-type(2) .project__line::after {
+      width: 80%;
+    }
+    .card:nth-of-type(3) .project__line::after {
+      background-color: var(--blue-color);
+      width: 100%;
+    }
+    .card:nth-of-type(5) .project__line::after {
+      width: 70%;
+    }
+    .card:nth-of-type(6) .project__line::after {
+      width: 30%;
+    }
+    .card:nth-of-type(4) .project__line::after,
+    .card:nth-of-type(7) .project__line::after,
+    .card:nth-of-type(8) .project__line::after {
+      width: 60%;
+    }
+    .card:nth-of-type(9) .project__line::after {
+      width: 90%;
+    }
+  }
+}

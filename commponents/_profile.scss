@@ -1,0 +1,179 @@
+.container {
+  .profile {
+    grid-template-columns: repeat(auto-fill, minmax(40.4rem, 1fr));
+    @media (max-width: 760px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .ahmed {
+      grid-column: 1/-1;
+      display: flex;
+      align-items: center;
+      @media (max-width: 760px) {
+        // flex-direction: column;
+        display: block;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 0.1rem solid #eee;
+        padding: 2rem;
+        min-width: 30rem;
+        img {
+          width: 12rem;
+          height: 12rem;
+          margin-bottom: 1rem;
+        }
+        h3 {
+          margin: 0;
+        }
+        .level {
+          color: var(--grey-color);
+          margin: 1.6rem 0;
+        }
+        .line {
+          width: 80%;
+          height: 0.5rem;
+          background-color: #eee;
+          position: relative;
+          border-radius: 0.5rem;
+        }
+        .line::after {
+          content: "";
+          position: absolute;
+          width: 70%;
+          height: 100%;
+          border-radius: 0.5rem;
+          background-color: var(--blue-alt-color);
+        }
+        .stars {
+          color: gold;
+          margin: 1rem 0;
+          font-size: 1.3rem;
+        }
+        .rating {
+          color: var(--grey-color);
+          font-size: 1.4rem;
+        }
+      }
+      .right {
+        flex: 1;
+        .ahmed__card:last-of-type {
+          border: none;
+        }
+        .ahmed__card:hover {
+          background-color: var(--lightgrey-color);
+        }
+        .ahmed__card {
+          border-bottom: 0.1rem solid #eee;
+          padding: 2rem;
+          transition: 0.3s ease-in;
+
+          .title {
+            color: var(--grey-color);
+          }
+          .ahmed__info {
+            display: flex;
+            padding: 1rem 0;
+            @media (max-width: 760px) {
+              flex-wrap: wrap;
+            }
+            .info__gray {
+              min-width: 25rem;
+              color: var(--grey-color);
+              font-size: 1.4rem;
+              @media (max-width: 760px) {
+                min-width: 20rem;
+              }
+
+              .info__black {
+                color: var(--text-color);
+              }
+            }
+          }
+          .switch {
+            display: block;
+            height: 2rem;
+          }
+          .switch::after {
+            height: 1rem;
+            width: 1rem;
+            font-size: 1.3rem;
+          }
+          .switch-input:checked + .switch::after {
+            content: "\f058";
+            transform: translateX(4.9rem) translateY(-50%);
+          }
+        }
+      }
+    }
+    .skills {
+      @media (max-width: 760px) {
+        grid-column: 1/-1;
+      }
+      .skills__rows {
+        padding: 0 2rem;
+        .skill__row:last-of-type {
+          border: none;
+        }
+        .skill__row {
+          padding: 1.5rem 0;
+          border-bottom: 0.1rem solid #eee;
+          span {
+            background-color: #eee;
+            font-size: 1.4rem;
+            padding: 0.4rem 1rem;
+            border-radius: 0.5rem;
+          }
+        }
+      }
+    }
+    .activities {
+      grid-column: 2/-1;
+      @media (max-width: 760px) {
+        grid-column: 1/-1;
+      }
+      .activities__rows {
+        padding: 0 2rem;
+        padding-top: -2rem;
+        .activities__row:first-of-type {
+          padding-top: 0;
+        }
+        .activities__row {
+          padding: 2rem 0;
+          border-bottom: 0.1rem solid #eee;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          @media (max-width: 760px) {
+            justify-content: center;
+            flex-direction: column;
+          }
+          .left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            @media (max-width: 760px) {
+              flex-direction: column;
+              text-align: center;
+            }
+            img {
+              width: 6.4rem;
+              height: 6.4rem;
+            }
+          }
+          .grey {
+            color: var(--grey-color);
+          }
+          .right {
+            text-align: end;
+            @media (max-width: 760px) {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

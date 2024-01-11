@@ -1,0 +1,77 @@
+.container {
+  .plans-page {
+    .card {
+      border-radius: 0.1rem;
+      padding: 2rem;
+      .top {
+        background-color: var(--green-color);
+        color: var(--background-color);
+        border: 0.3rem solid var(--background-color);
+        outline: 0.3rem solid var(--green-color);
+        text-align: center;
+        padding: 1.5rem;
+        .price {
+          font-size: 4rem;
+          position: relative;
+          display: inline-block;
+          span {
+            position: absolute;
+            left: -2rem;
+            font-size: 2.5rem;
+          }
+        }
+      }
+      .plan__details {
+        .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1.5rem 0;
+          border-bottom: 0.1rem solid #ddd;
+          .left {
+            i {
+              color: var(--green-color);
+              margin-right: 1rem;
+            }
+            span {
+              font-size: 1.5rem;
+            }
+
+            .fa-xmark {
+              color: var(--red-color);
+            }
+          }
+          i {
+            color: var(--grey-color);
+          }
+        }
+        .premium {
+          text-align: center;
+          padding-top: 1.5rem;
+          color: var(--grey-color);
+        }
+        a {
+          display: inline-block;
+          margin-top: 1.5rem;
+          padding: 0.4rem 1rem;
+          background-color: var(--green-color);
+        }
+      }
+    }
+    .card:nth-of-type(2) {
+      .top {
+        background-color: var(--blue-alt-color);
+        outline-color: var(--blue-alt-color);
+      }
+      a {
+        background-color: var(--blue-alt-color);
+      }
+    }
+    .card:nth-of-type(3) {
+      .top {
+        background-color: var(--orange-color);
+        outline-color: var(--orange-color);
+      }
+    }
+  }
+}

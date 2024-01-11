@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3bd3133027.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Friends</title>
+    <style>
+      .container {
+        li:nth-of-type(6) .sidebar__list {
+          background-color: var(--lightgrey-color);
+          border-radius: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h3 class="sidebar__heading">Elgrgawy</h3>
+        <ul>
+          <li>
+            <a href="index.html" class="sidebar__list">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html" class="sidebar__list">
+              <i class="fa-solid fa-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="sidebar__list">
+              <i class="fa-regular fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="sidebar__list">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html" class="sidebar__list">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html" class="sidebar__list">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html" class="sidebar__list">
+              <i class="fa-regular fa-file"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" class="sidebar__list">
+              <i class="fa-regular fa-credit-card"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <header class="main-header">
+          <div class="left-header">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="right-header">
+            <i class="fa-regular fa-bell bell"></i>
+            <img loading="lazy" src="imgs/avatar.png" alt="avatar image" />
+          </div>
+        </header>
+        <div class="main-content friends-page">
+          <h1 class="main__header">Friends</h1>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-01.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Ahmed Nasser</h4>
+              <p class="title">JavaScript Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div class="vip">VIP</div>
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>99 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>15 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>25 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/10/2021</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-02.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Omar Fathy</h4>
+              <p class="title">Cloud Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>30 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>11 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>12 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/10/2021</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-03.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Omar Ahmed</h4>
+              <p class="title">Mobile Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>80 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>20 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/8/2024</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-04.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Shady Nabil</h4>
+              <p class="title">Back-End Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div class="vip">VIP</div>
+
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>70 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>30 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/6/2020</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-05.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Mohamed Ibrahim</h4>
+              <p class="title">Algorithm Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div class="vip">VIP</div>
+
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>80 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>30 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/1/2021</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-05.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Amr Hendawy</h4>
+              <p class="title">Back-End Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>70 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>30 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 28/10/2020</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-04.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Mahmoud Adel</h4>
+              <p class="title">Cloud Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>30 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>11 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>12 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/8/2022</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-03.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Ahmed Abuzaid</h4>
+              <p class="title">Content Creator</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>80 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>30 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 28/8/2020</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-02.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Gareeb Elshiekh</h4>
+              <p class="title">JavaScript Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>90 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>15 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>25 Articles</span>
+              </div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/10/2020</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="left-top">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="friend__top">
+              <img
+                loading="lazy"
+                src="imgs/friend-01.jpg"
+                alt="photo of team"
+              />
+
+              <h4 class="heading">Ahmed Elgrgawy</h4>
+              <p class="title">Front-End Developer</p>
+            </div>
+            <div class="friend__middle">
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <span>80 Friend</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-code-commit"></i><span>20 Projects</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <span>18 Articles</span>
+              </div>
+              <div class="vip">VIP</div>
+            </div>
+            <div class="friend__bottom">
+              <span>Joined 02/6/2020</span>
+              <div>
+                <a href="#">Profile</a>
+                <a class="remove" href="#">Remove</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

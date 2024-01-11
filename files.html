@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3bd3133027.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Files</title>
+    <style>
+      .container {
+        li:nth-of-type(7) .sidebar__list {
+          background-color: var(--lightgrey-color);
+          border-radius: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h3 class="sidebar__heading">Elgrgawy</h3>
+        <ul>
+          <li>
+            <a href="index.html" class="sidebar__list">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html" class="sidebar__list">
+              <i class="fa-solid fa-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="sidebar__list">
+              <i class="fa-regular fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="sidebar__list">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html" class="sidebar__list">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html" class="sidebar__list">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html" class="sidebar__list">
+              <i class="fa-regular fa-file"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" class="sidebar__list">
+              <i class="fa-regular fa-credit-card"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <header class="main-header">
+          <div class="left-header">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="right-header">
+            <i class="fa-regular fa-bell bell"></i>
+            <img loading="lazy" src="imgs/avatar.png" alt="avatar image" />
+          </div>
+        </header>
+        <div class="main-content files">
+          <h1 class="main__header">Files</h1>
+          <div class="files__container">
+            <div class="files__grid">
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/pdf.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.pdf</span>
+                </div>
+                <div class="middle">Elgrgaway</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/avi.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.avi</span>
+                </div>
+                <div class="middle">Admin</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>12.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/eps.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.eps</span>
+                </div>
+                <div class="middle">Uploader</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.7MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/psd.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.psd</span>
+                </div>
+                <div class="middle">Ahmed</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>15.1MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/dll.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.dll</span>
+                </div>
+                <div class="middle">Coder</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.2MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/png.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.png</span>
+                </div>
+                <div class="middle">Designer</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>1.1MB</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/pdf.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.pdf</span>
+                </div>
+                <div class="middle">Elgrgaway</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/avi.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.avi</span>
+                </div>
+                <div class="middle">Admin</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>12.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/eps.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.eps</span>
+                </div>
+                <div class="middle">Uploader</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.7MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/psd.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.psd</span>
+                </div>
+                <div class="middle">Ahmed</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>15.1MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/dll.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.dll</span>
+                </div>
+                <div class="middle">Coder</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.2MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/png.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.png</span>
+                </div>
+                <div class="middle">Designer</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>1.1MB</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/pdf.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.pdf</span>
+                </div>
+                <div class="middle">Elgrgaway</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/avi.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.avi</span>
+                </div>
+                <div class="middle">Admin</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>12.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/eps.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.eps</span>
+                </div>
+                <div class="middle">Uploader</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.7MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/psd.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.psd</span>
+                </div>
+                <div class="middle">Ahmed</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>15.1MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/dll.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.dll</span>
+                </div>
+                <div class="middle">Coder</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.2MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/png.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.png</span>
+                </div>
+                <div class="middle">Designer</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>1.1MB</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/pdf.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.pdf</span>
+                </div>
+                <div class="middle">Elgrgaway</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>5.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/avi.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.avi</span>
+                </div>
+                <div class="middle">Admin</div>
+                <div class="bottom">
+                  <span>20/06/2020</span>
+                  <span>12.5MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/eps.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.eps</span>
+                </div>
+                <div class="middle">Uploader</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.7MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/psd.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.psd</span>
+                </div>
+                <div class="middle">Ahmed</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>15.1MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/dll.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.dll</span>
+                </div>
+                <div class="middle">Coder</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>2.2MB</span>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" class="left-top"
+                  ><i class="fa-solid fa-download"></i
+                ></a>
+                <div class="top">
+                  <img
+                    loading="lazy"
+                    src="imgs/png.svg"
+                    alt="image of file type"
+                    class="file-type"
+                  />
+                  <span>my-file.png</span>
+                </div>
+                <div class="middle">Designer</div>
+                <div class="bottom">
+                  <span>16/5/2021</span>
+                  <span>1.1MB</span>
+                </div>
+              </div>
+            </div>
+            <div class="files__rightside card">
+              <h2>Files Statistics</h2>
+              <div class="row">
+                <div class="left">
+                  <i class="fa-regular fa-file-pdf i"></i>
+                  <div>
+                    <span class="name">PDF Files</span>
+                    <span>130</span>
+                  </div>
+                </div>
+                <span>6.5GB</span>
+              </div>
+              <div class="row">
+                <div class="left">
+                  <i class="fa-regular fa-images i"></i>
+                  <div>
+                    <span class="name">Images</span>
+                    <span>115 Files</span>
+                  </div>
+                </div>
+                <span>3.5GB</span>
+              </div>
+              <div class="row">
+                <div class="left">
+                  <i class="fa-regular fa-file-word i"></i>
+                  <div>
+                    <span class="name">Word Files</span>
+                    <span>110 Files</span>
+                  </div>
+                </div>
+                <span>3.2GB</span>
+              </div>
+              <div class="row">
+                <div class="left">
+                  <i class="fa-solid fa-file-csv i"></i>
+                  <div>
+                    <span class="name">CSV Files</span>
+                    <span>99 Files</span>
+                  </div>
+                </div>
+                <span>2.9GB</span>
+              </div>
+              <a href="#" class="upload"
+                ><i class="fa-solid fa-angles-up"></i> Upload</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
